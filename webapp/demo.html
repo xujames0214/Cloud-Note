@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>自定义图片</h1>
+	<p>
+		<img alt="" src="demoimg">
+	</p>
+	<h1>下载图片</h1>
+	<a href="user/downloadimg.do">图片</a> 
+	
+	<h1>下载Excel</h1>
+	<a href="user/downloadexcel.do">Excel文件</a>
+	
+	<h2>文件下载</h2>
+	<FORM enctype="multipart/form-data" ACTION="user/upload.do" method="post">
+		File to Process:<br>
+		<input name="userfile1" type="file"><br>
+		<input name="userfile2" type="file"><br>
+		<input type="submit" value="send file"><br>
+	</FORM>
+	
+</body>
+</html>
